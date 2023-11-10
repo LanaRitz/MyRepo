@@ -8,8 +8,6 @@ int String_to_number(const string& str)
     bool isNegative = false;
     int i = 0;
 
-   
-
     // Проход по каждому символу строки и конвертация в число
     for (; i < str.length(); i++)
     {
